@@ -1,0 +1,104 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Home page with skyline background */
+body.home {
+    background: url('skyline.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.home .container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    padding: 50px;
+    border-radius: 10px;
+}
+
+body.home h1, body.home p {
+    color: white; /* White text for contrast on the dark overlay */
+}
+
+/* Education page with Hunter-Campus background */
+body.education {
+    background: url('Hunter-Campus.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed; /* Ensures the background stays fixed on scroll */
+}
+
+body.education h1, body.education p {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white; /* White text for contrast */
+}
+
+/* Hobbies page specific styling */
+body.hobbies h1, body.hobbies p, section.hobby h2, section.hobby p {
+    color: black; /* Set text color to black */
+}
+
+section.hobby {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Contact page specific styling */
+body.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333; /* Dark background */
+}
+
+.contact-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent container */
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.contact-container p {
+    color: #ccc; /* Light text for readability */
+}
+
+/* Navigation styles */
+nav a {
+    margin-right: 10px;
+    color: #0066cc; /* Link color */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* General heading styles */
+h1 {
+    color: #ff6347; /* Vibrant color for main headings */
+}
+
+section.hobby h2 {
+    color: #333; /* Darker subheading color for contrast */
+}
+
+/* Banner image */
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+img {
+    border-radius: 8px;
+    margin-top: 20px;
+}
